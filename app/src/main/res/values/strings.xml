@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Emission Test Kit</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signin">Sign In</string>
+    <string name="fname">Firstname</string>
+    <string name="lname">Lastname</string>
+    <string name="mnumber">Mobile Number</string>
+    <string name="cpass">Confirm Password</string>
+    <string name="signup">Sign up</string>
+    <string name="logintext">Login to your Account</string>
+    <string name="signtextview">-sign in with-</string>
+</resources>
