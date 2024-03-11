@@ -98,10 +98,23 @@
             android:textSize="12sp" />
 
         <TextView
+            android:id="@+id/linkTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:fontFamily="@font/interreg"
+            android:text="@string/register_link"
+            android:textColor="@color/link"
+            android:textSize="12sp"
+            android:layout_gravity="start"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
             android:id="@+id/signtextview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="4dp"
             android:fontFamily="@font/interreg"
             android:text="@string/signtextview"
             android:textColor="@color/white"
