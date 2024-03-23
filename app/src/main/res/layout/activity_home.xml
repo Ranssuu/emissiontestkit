@@ -24,7 +24,8 @@
             android:fontFamily="@font/interbold"
             android:text="@string/home"
             android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:layout_marginStart="16dp"/>
 
     </LinearLayout>
 
