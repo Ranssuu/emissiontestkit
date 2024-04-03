@@ -12,7 +12,7 @@
         android:id="@+id/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="50dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/logo"
         app:layout_constraintBottom_toTopOf="@+id/SignupLayout"
@@ -24,7 +24,7 @@
         android:id="@+id/SignupLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/register_bg"
         android:gravity="center"
         android:orientation="vertical"
@@ -144,38 +144,6 @@
             android:text="@string/signup"
             android:textColor="@color/white"
             android:textSize="12sp" />
-
-        <TextView
-            android:id="@+id/signtextview"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:fontFamily="@font/interreg"
-            android:text="@string/or_sign_up_with"
-            android:textColor="@color/white"
-            android:textSize="12sp" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp">
-
-            <ImageButton
-                android:id="@+id/fb_btn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/facebook" />
-
-            <Space
-                android:layout_width="16dp"
-                android:layout_height="wrap_content" />
-
-            <ImageButton
-                android:id="@+id/google_btn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/google" />
-        </LinearLayout>
 
     </LinearLayout>
 
