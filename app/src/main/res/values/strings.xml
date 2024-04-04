@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Emission Test Kit</string>
+    <string name="app_name">Iot Emission Test Kit</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="signin">Sign In</string>
@@ -17,4 +17,14 @@
     <string name="settings">Settings</string>
     <string name="emission">Emission</string>
     <string name="register_link">Register</string>
+    <string name="vehicle_details">Vehicle Details</string>
+    <string name="submit">Submit</string>
+    <string name="plate_no">Plate No.</string>
+    <string name="engine_no">Engine No.</string>
+    <string name="classis_no">Classis No.</string>
+    <string name="year_model">Year Model</string>
+    <string name="make_series">Make/Series</string>
+    <string name="mv_type">MV type</string>
+    <string name="color">Color</string>
+    <string name="classification">Classification</string>
 </resources>
