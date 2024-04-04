@@ -27,4 +27,7 @@
     <string name="mv_type">MV type</string>
     <string name="color">Color</string>
     <string name="classification">Classification</string>
+    <string name="emission_test_description">Initiate emission test, detect opacity, viewpass/fail results.</string>
+    <string name="history_description">Track, download, view past emission results with timestamps.</string>
+    <string name="settings_description">Customize, Configure settings, access helpful documentaion in-app.</string>
 </resources>
