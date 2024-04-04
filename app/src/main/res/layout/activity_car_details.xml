@@ -8,55 +8,71 @@
     tools:context=".CarDetailsActivity"
     android:background="@color/background">
 
-    <ImageView
-        android:id="@+id/logo"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="387dp"
         android:layout_height="187dp"
-        android:layout_marginStart="16dp"
-        android:background="@drawable/logo"
-        android:padding="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/cardetails_bg"
-        app:layout_constraintEnd_toStartOf="@+id/appname"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/appname"
-        android:layout_width="170dp"
-        android:layout_height="140dp"
-        android:layout_marginEnd="16dp"
-        android:fontFamily="@font/interbold"
-        android:text="@string/app_name"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="34sp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/cardetails_bg"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/logo"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/logo"
+            android:padding="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardetails_bg"
+            app:layout_constraintEnd_toStartOf="@+id/appname"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/appname"
+            android:layout_width="170dp"
+            android:layout_height="140dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/interbold"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toTopOf="@+id/cardetails_bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/logo"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/cardetails_bg"
         android:layout_width="320dp"
         android:layout_height="550dp"
+        android:layout_marginTop="16dp"
         android:layout_marginBottom="32dp"
         android:background="@drawable/widget_bg"
+        android:gravity="center"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:orientation="vertical"
-        android:gravity="center">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
         <TextView
             android:id="@+id/cardetailtextview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/interbold"
             android:text="@string/vehicle_details"
             android:textColor="@color/white"
-            android:fontFamily="@font/interbold"
-            android:textSize="18sp"
-            android:layout_marginStart="16dp"/>
+            android:textSize="18sp" />
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/plateno"
@@ -69,7 +85,7 @@
             android:inputType="text"
             android:paddingStart="8dp"
             android:textColor="@color/black"
-            android:textSize="12sp"/>
+            android:textSize="12sp" />
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/engineno"
@@ -82,7 +98,7 @@
             android:inputType="text"
             android:paddingStart="8dp"
             android:textColor="@color/black"
-            android:textSize="12sp"/>
+            android:textSize="12sp" />
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/chassisno"
@@ -95,7 +111,7 @@
             android:inputType="text"
             android:paddingStart="8dp"
             android:textColor="@color/black"
-            android:textSize="12sp"/>
+            android:textSize="12sp" />
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/yearmodel"
@@ -108,7 +124,7 @@
             android:inputType="text"
             android:paddingStart="8dp"
             android:textColor="@color/black"
-            android:textSize="12sp"/>
+            android:textSize="12sp" />
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/makeseries"
@@ -121,7 +137,7 @@
             android:inputType="text"
             android:paddingStart="8dp"
             android:textColor="@color/black"
-            android:textSize="12sp"/>
+            android:textSize="12sp" />
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/mvtype"
@@ -134,7 +150,7 @@
             android:inputType="text"
             android:paddingStart="8dp"
             android:textColor="@color/black"
-            android:textSize="12sp"/>
+            android:textSize="12sp" />
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/color"
@@ -147,7 +163,7 @@
             android:inputType="text"
             android:paddingStart="8dp"
             android:textColor="@color/black"
-            android:textSize="12sp"/>
+            android:textSize="12sp" />
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/classification"
@@ -160,7 +176,7 @@
             android:inputType="text"
             android:paddingStart="8dp"
             android:textColor="@color/black"
-            android:textSize="12sp"/>
+            android:textSize="12sp" />
 
         <Button
             android:id="@+id/submit"
