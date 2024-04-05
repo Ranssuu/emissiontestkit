@@ -208,112 +208,58 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_chainStyle="spread_inside">
 
-        <LinearLayout
+
+        <TextView
             android:id="@+id/homenav"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_weight="1"
-            android:orientation="vertical"
-            android:gravity="center">
+            android:fontFamily="@font/interreg"
+            android:gravity="center"
+            android:text="@string/home"
+            android:textColor="@color/ActiveNav"
+            android:textSize="11sp"
+            app:drawableTopCompat="@drawable/home"
+            app:drawableTint="@color/ActiveNav" />
 
-            <ImageView
-                android:id="@+id/homeiconnav"
-                android:layout_width="25dp"
-                android:layout_height="25dp"
-                android:background="@drawable/home"
-                android:backgroundTint="@color/ActiveNav"/>
-
-            <TextView
-                android:id="@+id/hometext"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/home"
-                android:fontFamily="@font/interreg"
-                android:textSize="11sp"
-                android:textColor="@color/ActiveNav"/>
-
-        </LinearLayout>
-
-        <LinearLayout
+        <TextView
             android:id="@+id/emissionnav"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_weight="1"
-            android:orientation="vertical"
+            android:text="@string/emission"
+            android:fontFamily="@font/interreg"
+            android:textColor="@color/InactiveNav"
             android:gravity="center"
-            android:onClick="onEmissionClicked">
+            android:onClick="onEmissionClicked"
+            android:textSize="11sp"
+            app:drawableTopCompat="@drawable/emission" />
 
-            <ImageView
-                android:id="@+id/emissioniconnav"
-                android:layout_width="25dp"
-                android:layout_height="25dp"
-                android:background="@drawable/emission"
-                android:backgroundTint="@color/InactiveNav"/>
-
-            <TextView
-                android:id="@+id/emissiontext"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/emission"
-                android:fontFamily="@font/interreg"
-                android:textSize="11sp"
-                android:textColor="@color/InactiveNav"/>
-
-        </LinearLayout>
-
-        <LinearLayout
+        <TextView
             android:id="@+id/historynav"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_weight="1"
-            android:orientation="vertical"
+            android:fontFamily="@font/interreg"
             android:gravity="center"
-            android:onClick="onHistoryClicked">
+            android:onClick="onHistoryClicked"
+            android:text="@string/history"
+            android:textColor="@color/InactiveNav"
+            android:textSize="11sp"
+            app:drawableTopCompat="@drawable/history" />
 
-            <ImageView
-                android:id="@+id/historyiconnav"
-                android:layout_width="25dp"
-                android:layout_height="25dp"
-                android:background="@drawable/history"
-                android:backgroundTint="@color/InactiveNav"/>
-
-            <TextView
-                android:id="@+id/historytext"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/history"
-                android:fontFamily="@font/interreg"
-                android:textSize="11sp"
-                android:textColor="@color/InactiveNav"/>
-
-        </LinearLayout>
-
-        <LinearLayout
+        <TextView
             android:id="@+id/settingsnav"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_weight="1"
-            android:orientation="vertical"
+            android:fontFamily="@font/interreg"
             android:gravity="center"
-            android:onClick="onSettingsClicked">
-
-            <ImageView
-                android:id="@+id/settingsiconnav"
-                android:layout_width="25dp"
-                android:layout_height="25dp"
-                android:background="@drawable/settings"
-                android:backgroundTint="@color/InactiveNav"/>
-
-            <TextView
-                android:id="@+id/settingstext"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/settings"
-                android:fontFamily="@font/interreg"
-                android:textSize="11sp"
-                android:textColor="@color/InactiveNav"/>
-
-        </LinearLayout>
+            android:onClick="onSettingsClicked"
+            android:text="@string/settings"
+            android:textColor="@color/InactiveNav"
+            android:textSize="11sp"
+            app:drawableTopCompat="@drawable/settings" />
 
     </LinearLayout>
 

@@ -5,6 +5,113 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EmissionActivity">
+    tools:context=".EmissionActivity"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/emission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/interreg"
+        android:text="@string/emission"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/profilepic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/profilepic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/widget_bg"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/bottomnav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomnav"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/bottom_nav"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread_inside">
+
+
+        <TextView
+            android:id="@+id/homenav"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/interreg"
+            android:gravity="center"
+            android:onClick="onHomeClicked"
+            android:text="@string/home"
+            android:textColor="@color/InactiveNav"
+            android:textSize="11sp"
+            app:drawableTopCompat="@drawable/home" />
+
+        <TextView
+            android:id="@+id/emissionnav"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="@string/emission"
+            android:fontFamily="@font/interreg"
+            android:textColor="@color/ActiveNav"
+            android:gravity="center"
+            android:textSize="11sp"
+            app:drawableTopCompat="@drawable/emission"
+            app:drawableTint="@color/ActiveNav" />
+
+        <TextView
+            android:id="@+id/historynav"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/interreg"
+            android:gravity="center"
+            android:onClick="onHistoryClicked"
+            android:text="@string/history"
+            android:textColor="@color/InactiveNav"
+            android:textSize="11sp"
+            app:drawableTopCompat="@drawable/history" />
+
+        <TextView
+            android:id="@+id/settingsnav"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/interreg"
+            android:gravity="center"
+            android:onClick="onSettingsClicked"
+            android:text="@string/settings"
+            android:textColor="@color/InactiveNav"
+            android:textSize="11sp"
+            app:drawableTopCompat="@drawable/settings" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
