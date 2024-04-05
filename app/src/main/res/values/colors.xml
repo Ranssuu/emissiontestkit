@@ -13,4 +13,6 @@
     <color name="blue">#1243FF</color>
     <color name="link">#548AF7</color>
     <color name="botnav">#161616</color>
+    <color name="ActiveNav">#9E9E9E</color>
+    <color name="InactiveNav">#4C4C4C</color>
 </resources>
