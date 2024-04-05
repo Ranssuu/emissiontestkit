@@ -31,4 +31,10 @@
     <string name="history_description">Track, download, view past emission results with timestamps.</string>
     <string name="settings_description">Customize, Configure settings, access helpful documentaion in-app.</string>
     <string name="emission_test">Emission Test</string>
+    <string name="opacity">Opacity</string>
+    <string name="opacity_value">---</string>
+    <string name="result">Result</string>
+    <string name="status">Status</string>
+    <string name="connected">connected</string>
+    <string name="start_test">Start Test</string>
 </resources>

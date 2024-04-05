@@ -15,4 +15,8 @@
     <color name="botnav">#161616</color>
     <color name="ActiveNav">#9E9E9E</color>
     <color name="InactiveNav">#4C4C4C</color>
+    <color name="loadingblue">#274654</color>
+    <color name="loadedblue">#146F98</color>
+    <color name="connected">#42FF00</color>
+    <color name="offline">#F41313</color>
 </resources>
