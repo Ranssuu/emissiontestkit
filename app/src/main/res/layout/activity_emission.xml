@@ -41,6 +41,7 @@
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/emissionwidget"
         android:layout_width="320dp"
         android:layout_height="550dp"
         android:background="@drawable/widget_bg"
