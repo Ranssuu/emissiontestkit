@@ -42,7 +42,6 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:foregroundGravity="center"
         app:layout_constraintBottom_toTopOf="@+id/bottomnav"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,6 +53,7 @@
             android:layout_height="300dp"
             android:background="@drawable/widget_bg"
             android:orientation="horizontal"
+            android:layout_gravity="center"
             app:layout_constraintBottom_toTopOf="@+id/bottomnav"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -186,9 +186,8 @@
             android:fontFamily="@font/interreg"
             android:gravity="center"
             android:text="@string/emission"
-            android:textColor="@color/ActiveNav"
+            android:textColor="@color/InactiveNav"
             android:textSize="11sp"
-            app:drawableTint="@color/ActiveNav"
             app:drawableTopCompat="@drawable/emission" />
 
         <TextView
@@ -200,7 +199,8 @@
             android:gravity="center"
             android:onClick="onHistoryClicked"
             android:text="@string/history"
-            android:textColor="@color/InactiveNav"
+            android:textColor="@color/ActiveNav"
+            app:drawableTint="@color/ActiveNav"
             android:textSize="11sp"
             app:drawableTopCompat="@drawable/history" />
 
