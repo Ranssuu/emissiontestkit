@@ -126,7 +126,7 @@
             android:layout_marginStart="16dp"
             android:layout_weight="1"
             android:fontFamily="@font/intermed"
-            android:text="Vehicle Details"
+            android:text="@string/vehicle_details"
             android:textColor="@color/white"
             android:textSize="18sp" />
 
