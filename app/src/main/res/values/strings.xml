@@ -21,7 +21,7 @@
     <string name="submit">Submit</string>
     <string name="plate_no">Plate No.</string>
     <string name="engine_no">Engine No.</string>
-    <string name="classis_no">Classis No.</string>
+    <string name="chassis_no">Chassis No.</string>
     <string name="year_model">Year Model</string>
     <string name="make_series">Make/Series</string>
     <string name="mv_type">MV type</string>

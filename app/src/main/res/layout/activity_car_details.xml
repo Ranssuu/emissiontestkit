@@ -107,7 +107,7 @@
             android:layout_marginTop="16dp"
             android:background="@drawable/inputbox"
             android:fontFamily="@font/interreg"
-            android:hint="@string/classis_no"
+            android:hint="@string/chassis_no"
             android:inputType="text"
             android:paddingStart="8dp"
             android:textColor="@color/black"
