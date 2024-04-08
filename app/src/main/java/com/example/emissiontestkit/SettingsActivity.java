@@ -1,6 +1,8 @@
 package com.example.emissiontestkit;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,4 +23,23 @@ public class SettingsActivity extends AppCompatActivity {
             return insets;
         });
     }
+
+    public void onHomeClicked(View view) {
+        // Handle emission LinearLayout click here
+        Intent intent = new Intent(SettingsActivity.this, HomeActivity.class);
+        startActivity(intent);
+    }
+
+    public void onEmissionClicked(View view) {
+        // Handle history LinearLayout click here
+        Intent intent = new Intent(SettingsActivity.this, EmissionActivity.class);
+        startActivity(intent);
+    }
+
+    public void onHistoryClicked(View view) {
+        // Handle settings LinearLayout click here
+        Intent intent = new Intent(SettingsActivity.this, HistoryActivity.class);
+        startActivity(intent);
+    }
+
 }
