@@ -37,4 +37,10 @@
     <string name="status">Status</string>
     <string name="connected">Connected</string>
     <string name="start_test">Start Test</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="reports">Report problem</string>
+    <string name="download_data">Download Data</string>
+    <string name="help">Help</string>
+    <string name="logout">Logout</string>
 </resources>
