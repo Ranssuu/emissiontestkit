@@ -46,4 +46,6 @@
     <string name="my_profile">My Profile</string>
     <string name="profile_image">\n</string>
     <string name="account">Account</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="edit">Edit</string>
 </resources>

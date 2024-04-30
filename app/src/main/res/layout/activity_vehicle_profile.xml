@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VehicleProfileActivity"
+    android:background="@color/background">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/vehicledetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="48dp"
+            android:fontFamily="@font/interreg"
+            android:text="@string/vehicle"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/cardetails_bg"
+        android:layout_width="320dp"
+        android:layout_height="550dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/widget_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header">
+
+        <TextView
+            android:id="@+id/cardetailtextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/interbold"
+            android:text="@string/vehicle_details"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/plateno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/inputbox"
+            android:fontFamily="@font/interreg"
+            android:hint="@string/plate_no"
+            android:inputType="text"
+            android:paddingStart="8dp"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/engineno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/inputbox"
+            android:fontFamily="@font/interreg"
+            android:hint="@string/engine_no"
+            android:inputType="text"
+            android:paddingStart="8dp"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/chassisno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/inputbox"
+            android:fontFamily="@font/interreg"
+            android:hint="@string/chassis_no"
+            android:inputType="text"
+            android:paddingStart="8dp"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/yearmodel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/inputbox"
+            android:fontFamily="@font/interreg"
+            android:hint="@string/year_model"
+            android:inputType="text"
+            android:paddingStart="8dp"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/makeseries"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/inputbox"
+            android:fontFamily="@font/interreg"
+            android:hint="@string/make_series"
+            android:inputType="text"
+            android:paddingStart="8dp"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/mvtype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/inputbox"
+            android:fontFamily="@font/interreg"
+            android:hint="@string/mv_type"
+            android:inputType="text"
+            android:paddingStart="8dp"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/inputbox"
+            android:fontFamily="@font/interreg"
+            android:hint="@string/color"
+            android:inputType="text"
+            android:paddingStart="8dp"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/classification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/inputbox"
+            android:fontFamily="@font/interreg"
+            android:hint="@string/classification"
+            android:inputType="text"
+            android:paddingStart="8dp"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_marginTop="16dp"
+            android:width="280dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/interbold"
+            android:text="@string/edit"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,6 +13,9 @@
         android:theme="@style/Theme.EmissionTestKit"
         tools:targetApi="31">
         <activity
+            android:name=".VehicleProfileActivity"
+            android:exported="false" />
+        <activity
             android:name=".MyProfileActivity"
             android:exported="false" />
         <activity
