@@ -43,4 +43,7 @@
     <string name="download_data">Download Data</string>
     <string name="help">Help</string>
     <string name="logout">Logout</string>
+    <string name="my_profile">My Profile</string>
+    <string name="profile_image">\n</string>
+    <string name="account">Account</string>
 </resources>

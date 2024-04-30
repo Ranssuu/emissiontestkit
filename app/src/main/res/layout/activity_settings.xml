@@ -137,109 +137,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/notification"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="2dp"
-        android:background="@color/gray"
-        android:clickable="true"
-        android:focusable="true"
-        android:orientation="horizontal"
-        android:padding="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/vechicledetails">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/button"
-            android:src="@drawable/notification" />
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_weight="1"
-            android:fontFamily="@font/intermed"
-            android:text="@string/notification_settings"
-            android:textColor="@color/white"
-            android:textSize="18sp" />
-
-        <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:src="@drawable/right_arrow" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/report"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="2dp"
-        android:background="@color/gray"
-        android:clickable="true"
-        android:focusable="true"
-        android:orientation="horizontal"
-        android:padding="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/notification">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/button"
-            android:src="@drawable/report" />
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_weight="1"
-            android:fontFamily="@font/intermed"
-            android:text="@string/reports"
-            android:textColor="@color/white"
-            android:textSize="18sp" />
-
-        <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:src="@drawable/right_arrow" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/download"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="2dp"
-        android:background="@color/gray"
-        android:clickable="true"
-        android:focusable="true"
-        android:orientation="horizontal"
-        android:padding="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/report">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/button"
-            android:src="@drawable/download" />
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_weight="1"
-            android:fontFamily="@font/intermed"
-            android:text="@string/download_data"
-            android:textColor="@color/white"
-            android:textSize="18sp" />
-
-        <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:src="@drawable/right_arrow" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/help"
+        android:id="@+id/logout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -248,41 +146,7 @@
         android:focusable="true"
         android:orientation="horizontal"
         android:padding="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/download">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/button"
-            android:src="@drawable/help" />
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_weight="1"
-            android:fontFamily="@font/intermed"
-            android:text="@string/help"
-            android:textColor="@color/white"
-            android:textSize="18sp" />
-
-        <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:src="@drawable/right_arrow" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/logout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="2dp"
-        android:background="@color/gray"
-        android:clickable="true"
-        android:focusable="true"
-        android:orientation="horizontal"
-        android:padding="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/help">
+        app:layout_constraintTop_toBottomOf="@+id/vechicledetails">
 
         <ImageView
             android:layout_width="wrap_content"
