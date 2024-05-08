@@ -42,4 +42,16 @@ public class SettingsActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void onProfileClicked(View view) {
+        // Handle settings LinearLayout click here
+        Intent intent = new Intent(SettingsActivity.this, MyProfileActivity.class);
+        startActivity(intent);
+    }
+
+    public void onVehicleClicked(View view) {
+        // Handle settings LinearLayout click here
+        Intent intent = new Intent(SettingsActivity.this, VehicleProfileActivity.class);
+        startActivity(intent);
+    }
+
 }
